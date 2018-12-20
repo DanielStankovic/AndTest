@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/baseline_add_photo_alternate_24"
+        android:gravity="center" />
+
+    <item
+        android:id="@+id/gallery_btn"
+        android:drawable="@drawable/baseline_add_photo_alternate_24" />
+
+</layer-list>

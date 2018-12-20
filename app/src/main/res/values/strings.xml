@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">AndroidB2C</string>
+    <string name="app_email">kolibri@micro-bs.com</string>
+    <string name="main_screen">Proizvodi</string>
+    <string name="cart_screen">Korpa</string>
+    <string name="orders_screen">Porudžbine</string>
+    <string name="wishlist_screen">Lista želja</string>
+    <string name="category_screen">Kategorije</string>
+    <string name="profile_screen">Moj nalog</string>
+    <string name="about_us_screen">O nama</string>
+    <string name="open">Otvori</string>
+    <string name="close">Zatvori</string>
+    <string name="search">Pretraga</string>
+    <string name="cart">Korpa</string>
+    <string name="username">Korisničko ime</string>
+    <string name="emailLogin">Email</string>
+    <string name="password">Lozinka</string>
+    <string name="login">Prijava</string>
+    <string name="logout">Odjava</string>
+    <string name="register">Registracija</string>
+    <string name="forgot_password">Zaboravljena lozinka?</string>
+    <string name="error_message">Niste uneli dobre vrednosti.</string>
+    <string name="user_name_logged_out">Korisničko ime</string>
+    <string name="user_email_logged_out">Korisnički email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email*</string>
+    <string name="full_name">Ime i Prezime*</string>
+    <string name="full_name_logged">Ime i Prezime</string>
+    <string name="passw">Lozinka*</string>
+    <string name="confirm_pass">Potvrdi Lozinku*</string>
+    <string name="address">Adresa</string>
+    <string name="delivery_address">Adresa za dostavu*</string>
+    <string name="phone_num">Telefon</string>
+    <string name="delivery_phone_num">Kontakt telefon*</string>
+    <string name="city">Grad</string>
+    <string name="delivery_city">Grad*</string>
+    <string name="zip_code">Poštanski broj*</string>
+    <string name="terms_of_use">Prihvatam uslove korišćenja</string>
+    <string name="gallery">Galerija</string>
+    <string name="camera">Kamera</string>
+    <string name="delete">Obriši</string>
+    <string name="add_to_cart">Dodaj u korpu</string>
+    <string name="no_internet_label">Došlo je do greške. Proverite Internet konekciju i pokušajte ponovo</string>
+    <string name="sendCode">Pošalji kod</string>
+    <string name="applyCode">Primeni kod</string>
+    <string name="authToken">Privremeni kod</string>
+    <string name="resetPassword">Resetuj lozinku</string>
+    <string name="customerName">Ime*</string>
+    <string name="customerLastName">Prezime*</string>
+    <string name="cart_content">Sadržaj korpe</string>
+    <string name="emptyCartLbl">Vaša korpa je prazna!</string>
+    <string name="checkProducts">PREGLEDAJ PROIZVODE</string>
+    <string name="order_no">Br. por.:</string>
+    <string name="order_sum">Ukupno za uplatu:</string>
+    <string name="order_status">Status:</string>
+
+    category_screen
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/productLinearLayout"
+            android:layout_below="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_margin="3dp"
+                app:cardBackgroundColor="@android:color/holo_blue_bright"
+                app:cardCornerRadius="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/productDiscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="20%"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                android:text="15.000 RSD"/>
+        </LinearLayout>
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/productLinearLayout"
+                android:lines="2"
+                android:maxLines="2"
+                android:layout_margin="5dp"
+                android:text=""/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+<RelativeLayout
+    android:id="@+id/add_to_cart_btn"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/add_to_cart_btn"
+    android:layout_alignEnd="@+id/card1"
+    android:elevation="5dp"
+    android:gravity="center"
+    android:layout_below="@+id/card1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/baseline_shopping_cart_24"
+            android:textStyle="bold"
+            android:drawableTint="@color/color_white"
+            android:drawablePadding="3dp"
+            android:textSize="10dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_white"
+            android:text="@string/add_to_cart"/>
+
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/add_to_fav_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/add_to_cart_btn"
+        android:layout_marginStart="6dp"
+        android:src="@drawable/baseline_favorite_border_24" />
+
+</RelativeLayout>

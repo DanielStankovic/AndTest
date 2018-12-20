@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/baseline_add_a_photo_24"
+        android:gravity="center" />
+
+    <item
+        android:id="@+id/camera_btn"
+        android:drawable="@drawable/baseline_add_a_photo_24"
+        />
+
+</layer-list>

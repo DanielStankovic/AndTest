@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="drawer_header_bg">#2ee985</color>
+    <color name="nav_bar_item_color">#868383</color>
+    <color name="orange_badge">#f76024</color>
+    <color name="color_white">#fff</color>
+    <color name="add_to_cart_btn_bg">#65df39</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#96ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#1f5e50</color>
+    <color name="gradStop">#10556e</color>
+    <color name="welcomeGradMiddle">#2d917a</color>
+    <color name="welcomeGradStop">#0b3949</color>
+    <color name="light_blue">#90dffc</color>
+    <color name="cart_divider">#02d4be</color>
+    <color name="cart_item_view_background">#f22c2c</color>
+    <color name="text_orange">#d14d19</color>
+    <color name="text_yellow">#e1c810</color>
+
+</resources>
